@@ -3,83 +3,114 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 625%;
 }
 
 .header {
     position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     background-color: #5fc0cd;
-    font-size: 1.7rem;
-    height: 4rem;
+    font-size: 0.17rem;
+    height: 0.4rem;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-  
+
 
 }
 
-.header-left img {
-    padding-left: 1.75rem;
-    width: 1rem;
-    height: 1.75rem;
-   
+.arrow {
+    margin-bottom: 0.15rem;
+    margin-left: 0.0875rem
+}
+
+div {
+    position: relative;
+}
+
+.arrow:after,
+.arrow:before {
+    width: 0;
+    height: 0;
+    border: 0.087rem solid transparent;
+    border-right-color: white;
+    position: absolute;
+    content: "";
+}
+
+.arrow:after {
+    top: 0;
+    left: 0.025rem;
+    border-right-color: #5fc0cd;
 
 }
 
 .header-title {
 
-    font-size: 1.5rem;
+    font-size: 0.15rem;
     color: white;
 
 }
 
 .header-right {
     background-color: #5fc0cd;
-    width: 1rem;
-    height: 1.75rem;
+    width: 0.1rem;
+    height: 0.175rem;
+    margin-right: 0.175rem;
 
 }
 
 .main01 {
-    padding-top: 4rem;
+    margin-top: 0.4rem;
     align-items: center;
     display: flex;
     width: 100%;
-    height: 16.3rem;
+    height: 1.63rem;
     background-image: url(images/02.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-  
+
 }
 
 .main01-picture img {
-    padding-left: 1.5rem;
-    width: 8.5rem;
-    height: 8.5rem;
+    padding-left: 0.15rem;
+    width: 0.85rem;
+    height: 0.85rem;
 
+}
+
+.main01-word {
+    margin: 0.2rem 0 0.2rem 0;
 }
 
 .main01-word-name {
-    padding-left: 2.2rem;
-    font-size: 1.65rem;
+    padding-left: 0.22rem;
+    font-size: 0.165rem;
     color: white;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.12rem;
 }
 
 .main01-word-position {
+    position: relative;
     display: flex;
-    padding-left: 2.2rem;
+    padding-left: 0.22rem;
+
 }
 
 .main01-word-position-icon img {
-    width: 1.15rem;
-    height: 1.15rem;
+    position: absolute;
+
+    width: 0.09rem;
+    height: 0.115rem;
+
 }
 
 .main01-word-position-word {
-    padding-left: 0.75rem;
-    font-size: 1.15rem;
+    left: 0.05rem;
+    padding-left: 0.1rem;
+    font-size: 0.115rem;
     color: white;
 }
 
@@ -93,10 +124,10 @@ html {
 .main02-row03,
 .main02-row04,
 .main02-row05 {
-    border-bottom: 0.05rem solid;
-    margin: 0 1.75rem;
+    border-bottom: 0.005rem solid;
+    margin: 0 0.175rem;
     display: flex;
-    height: 5rem;
+    height: 0.5rem;
     border-color: #e1e5e7;
     align-items: center;
 
@@ -106,20 +137,20 @@ html {
 .main02-row04-project,
 .main02-row05-project,
 .main02-row06-project {
-    font-size: 1.5rem;
+    font-size: 0.15rem;
     color: #999999;
 
 }
 
 .main02-row01-line {
-    width: 0.15rem;
-    height: 1.3rem;
+    width: o.015rem;
+    height: 0.13rem;
     background-color: #5fc0cd;
-    margin-right: 1.4rem;
+    margin-right: 0.14rem;
 }
 
 .main02-row01 p {
-    font-size: 1.6rem;
+    font-size: 0.16rem;
     color: #333333;
 }
 
@@ -127,11 +158,11 @@ html {
 .main02-row03-content p,
 .main02-row04-content p {
     color: #333333;
-    font-size: 1.5rem;
+    font-size: 0.15rem;
 }
 
 .main02-row05-content p {
-    font-size: 1.5rem;
+    font-size: 0.15rem;
     color: #e26163;
 }
 
@@ -140,95 +171,108 @@ html {
 .main02-row04-line,
 .main02-row05-line,
 .main02-row06-line {
-    width: 0.1rem;
-    height: 1.3rem;
+    width: 0.01rem;
+    height: 0.13rem;
     background-color: #e1e5e7;
-    margin: 0 1.3rem;
+    margin: 0 0.13rem;
 }
 
 .main02-row02-line {
-    width: 0.1rem;
-    height: 1.3rem;
+    width: 0.01rem;
+    height: 0.13rem;
     background-color: #e1e5e7;
-    margin: 0 1rem;
+    margin: 0 0.1rem;
 }
 
 .main02-row02 {
     display: flex;
     background-image: url(images/04.png),
         url(images/04.png);
-    background-position: 6rem 50%, 0 50%;
+    background-position: 0.65rem 50%, 0 50%;
     background-repeat: no-repeat;
-    background-size: 1.2rem;
+    background-size: 0.12rem;
 }
 
-.main02-row02-content{padding-left:1.3rem;}
+.main02-row02-content {
+    padding-left: 0.13rem;
+}
+
 .main02-row02-project {
-    padding-left: 1.5rem;
+    padding-left: 0.15rem;
 }
 
 .main02-row06-content {
-    margin-right: 4.5rem;
+    margin-right: 0.45rem;
 }
 
 
 
 .main02-row06-project {
-    border-right-color: 0.05rem;
-    border-right: 0.05rem 1.3rem;
-    
+    border-right-color: 0.005rem;
+    border-right: 0.005rem 0.13rem;
+
 }
 
 
-.main02-row06{
-    
-    border-bottom: 0.05rem solid;
-    border-color:#e1e5e7;
-    display:flex;
+.main02-row06 {
+
+    border-bottom: 0.005rem solid;
+    border-color: #e1e5e7;
+    display: flex;
     align-items: center;
-    
+
 }
-.main02-row06-project p{white-space:nowrap; 
+
+.main02-row06-project p {
+    white-space: nowrap;
 }
-.main02-row06-project{
-    margin:1.7rem 0 1.7rem 1.8rem;}
-.main02-row06-content{font-size:1.4rem;
-                   color:#444444;
-                   padding:1rem 0rem;}
+
+.main02-row06-project {
+    margin: 0.17rem 0 0.17rem 0.18rem;
+}
+
+.main02-row06-content {
+    font-size: 0.14rem;
+    color: #444444;
+    padding: 0.1rem 0rem;
+}
 
 
 
 .footer {
+    background-color: white;
     position: fixed;
+    left: 0;
+    bottom: 0;
     display: flex;
-    height: 8.4rem;
+    height: 0.84rem;
     width: 100%;
     align-items: center;
 }
 
 .footer-left {
-    height: 4.4rem;
+    height: 0.44rem;
     width: 50%;
-    border-width: 0.01rem solid;
-    border-color:#5fc0cd; 
-    border-radius: 0.5rem;
-    font-size: 1.6rem;
-    color:#5fc0cd;
-    background-color:white;
-    margin:0 0.5rem 0 1.8rem;
+    border-width: 0.001rem solid;
+    border-color: #5fc0cd;
+    border-radius: 0.05rem;
+    font-size: 0.16rem;
+    color: #5fc0cd;
+    background-color: white;
+    margin: 0 0.05rem 0 0.18rem;
 
-    
+
 }
 
 .footer-right {
-    background-color:#5fc0cd;
-    color:white;
-    border-width: 0.01rem solid;
-    border-color:#5fc0cd; 
-    border-radius: 0.5rem;
-    height: 4.4rem;
+    background-color: #5fc0cd;
+    color: white;
+    border-width: 0.001rem solid;
+    border-color: #5fc0cd;
+    border-radius: 0.05rem;
+    height: 0.44rem;
     width: 50%;
-    border: 0.01rem;
-    font-size: 1.6rem;
-    margin:0 1.8rem 0 0.5rem;
+    border: 0.001rem;
+    font-size: 0.16rem;
+    margin: 0 0.18rem 0 0.05rem;
 }
