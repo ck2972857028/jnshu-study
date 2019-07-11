@@ -157,7 +157,7 @@ html {
     display: flex;
     background-image: url(images/04.png),
         url(images/04.png);
-    background-position: 5.8rem 50%, 0 50%;
+    background-position: 6rem 50%, 0 50%;
     background-repeat: no-repeat;
     background-size: 1.2rem;
 }
