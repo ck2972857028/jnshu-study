@@ -66,10 +66,6 @@ html {
 .main1 {
     z-index: 1;
     display: flex;
-
-
-
-
 }
 
 .btn-group1,
@@ -124,7 +120,15 @@ html {
     border: 0.005rem solid;
     border-color: #e2e6e8;
 }
-
+.arrow{position:absolute;
+       top:47%;
+       left:93.06%;
+       height: 0.125rem;
+       width:0.125rem;
+       border-right: 0.025rem solid;
+       border-top:0.025rem solid;
+       border-color: #5fc0cd;
+       transform:rotate(45deg);}
 .main01 {
     margin-top: 0.84rem;
 }
@@ -137,7 +141,7 @@ html {
     position: absolute;
     left: 9.583%;
     top: 0.15rem;
-    font-size: 0.1136rem;
+    font-size: 0.12rem;
     color: #999999;
 }
 
@@ -149,7 +153,7 @@ html {
     position: absolute;
     left: 9.583%;
     top: 0.4rem;
-    font-size: 0.125rem;
+    font-size: 0.11rem;
     color: #333333;
 }
 
@@ -173,7 +177,7 @@ html {
     position: absolute;
     left: 9.583%;
     top: 0.625rem;
-    font-size: 0.125rem;
+    font-size: 0.12rem;
     color: #999999;
 }
 
@@ -228,6 +232,7 @@ html {
 }
 
 .footer-right {
+    text-align: center;
     height: 0.37rem;
     width: 0.23rem;
     font-size: 0.1rem;
