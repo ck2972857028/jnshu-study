@@ -1,0 +1,161 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ html {
+     font-size: 625%;
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: #f0f0f0;
+ }
+
+ .header {
+     width: 100%;
+     height: 0.345rem;
+     background-color: #29bde0;
+     display: flex;
+ }
+
+ .left-lines {
+     width: 0.17rem;
+     height: 0.135rem;
+     background-color: #29bde0;
+     margin: auto 0.11rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+
+ .line {
+     width: 100%;
+     height: 0.02rem;
+     background-color: white;
+ }
+
+ .history {
+     height: 0.59rem;
+     background-color: white;
+     display: flex;
+     margin: 0.135rem 0.14rem;
+     border: 0.005rem solid #c9c9c9;
+     position: relative;
+
+ }
+
+ .history p {
+     margin: auto auto;
+     font-size: 0.16rem;
+     color: #9a9a9a;
+ }
+
+ .history-arrow {
+     width: 0.11rem;
+     height: 0.11rem;
+     border: 0.035rem solid;
+     border-color: #ffffff #e7e7e7 #e7e7e7 #ffffff;
+     transform: rotate(315deg);
+     position: absolute;
+     top: 0.19rem;
+     right: 0.12rem;
+
+
+ }
+
+ .main {
+     background-color: #ffffff;
+     margin: 0 0.14rem;
+     height: 3.88rem;
+     border: 0.005rem solid #cecece;
+     position: relative;
+
+ }
+
+ .triangle {
+     border-style: solid;
+     border-width: 0.1375rem 0rem 0.1375rem 0.1375rem;
+     border-color: transparent transparent transparent #fbb435;
+     width: 0px;
+     height: 0px;
+     position: absolute;
+     right: 0.04rem;
+     top: 1.89rem;
+ }
+
+
+
+ .main-themes {
+     display: flex;
+     height: 0.45rem;
+     border: 0.005rem solid;
+     border-color: #d0d0d0 #d0d0d0 #fdd793 #ffffff;
+     background-color: #ffffff;
+ }
+
+ .main-themes p {
+     font-size: 0.175rem;
+     color: #fbb435;
+     margin: auto auto;
+ }
+
+ .main-themes-edition01,
+ .main-themes-edition02,
+ .main-themes-edition03 {
+     margin: 0.145rem 0.27rem;
+     height: 0.65rem;
+     background-color: #69d1e9;
+     display: flex;
+ }
+
+ .main-themes-edition01 p,
+ .main-themes-edition02 p,
+ .main-themes-edition03 p {
+     font-size: 0.15rem;
+     color: white;
+     margin: auto auto;
+ }
+
+ .main-themes-edition01-gamenumber,
+ .main-themes-edition02-gamenumber,
+ .main-themes-edition03-gamenumber {
+     font-size: 0.12rem;
+     line-height: 0.13rem;
+     color: #787878;
+     padding: 0;
+     text-align: center;
+ }
+
+
+ .footer {
+     width: 0.47rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: absolute;
+     left: calc(50% - 0.235rem);
+     bottom: 0.045rem;
+
+ }
+
+ .dot1,
+ .dot2,
+ .dot3,
+ .dot4 {
+     height: 0.09rem;
+     width: 0.09rem;
+     border-radius: 0.045rem;
+ }
+
+ .dot1 {
+     background-color: #69d1e9
+ }
+
+
+ .dot2,
+ .dot3,
+ .dot4 {
+     background-color: #f0f0f0
+ }
